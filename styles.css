@@ -1,0 +1,68 @@
+* {
+font-family:verdana,sans-serif;
+font-size :14pt;
+}
+body {
+width: 1000px;
+margin:10px auto;
+background:#fff;
+border:4px solid #fff;
+}
+
+html {
+background:#fff
+}
+
+li a, .button {
+text-decoration:none;
+}
+li a:hover, .button:hover {
+color:green;
+}
+.appname {
+text-align :center;
+color:rgb(255, 255, 255);
+font-family:helvetica;
+font-size :20pt;
+padding:4px;
+}
+
+.fieldname {
+float:left;
+width:120px;
+}
+
+.main {
+margin-left:40px;
+}
+.info {
+background :lightgreen;
+color:blue;
+border:1px solid green;
+padding:5px 10px;
+margin-left:40px;
+}
+.menu li, .button {
+ display:inline;
+padding:4px 6px;
+background:#fff;
+color:#d04;
+margin-right:8px;
+border-radius:5px;
+}
+.subhead {font-weight:bold;
+}
+.taken, .error {
+color:red;
+}
+.available {
+color:green;
+}
+.whisper {
+font-style:italic;
+color:#006600;
+}
+#logo {
+width: 200px;
+height: 200px;
+}

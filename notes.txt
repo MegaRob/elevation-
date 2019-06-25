@@ -1,0 +1,51 @@
+6.14.19
+
+Senting.php overview.
+The goal is for the user to look at routes that are currently set and be able to tick them when they send them. 
+Even though the gym will cycle through routes on a regular basis, by ticking the route, it will store the grade number into the user profile to remember the grade after it has been deleted.
+By doing this it will give the climber a good idea of what grades they have done the most of and what and also a time line of their grade. The perpouse of this is for the climber to be able to keep track of their progression of their climbing. 
+
+
+Simple view
+routes > user clicks route > route saved to user profile > user is able to view personal grades sent
+
+
+Steps.
+
+1. Connect to LeadRoutes table. (done)
+2. Display table on site. (done)
+3. Add checkbox to each grade. (done)
+4. If check box is select save to user data, else nothing.
+5. User selects their profile and can view check routes. 
+
+
+6.17.19
+
+
+Settings.php
+For senting.php there has been some progess. I have accomplished 3 of the 5 tasks. I am stuck trying to add the data the user has checked from on page and save it to the database where they can view it on their personal page. I have currently submitted an answer to stackover.com to get some claificaiton. 
+
+Training-
+
+Overview
+For a user to be able to select from multiple training programs, or create their on. Then they will be able to save their data. This way they will be able to break down what type of training they have progressed on and what they need to work on.
+
+To do:
+
+Create a main page.
+    In main page there will be workout options.
+        - hangboard
+            - beginner
+            - intermidiate 
+            - advanced
+            - custom
+        - bouldering
+            -  4x4
+            -  6x8 
+            -  custom 
+        - ropes
+            - repeats
+            - max attempts 
+
+Create workout selection for each site.
+
